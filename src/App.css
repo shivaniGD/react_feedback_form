@@ -1,0 +1,62 @@
+.box {
+  width: 360px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid gray;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+.rating {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.radio,
+.check {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.check {
+  margin-top: 14px;
+}
+
+button {
+  margin-top: 15px;
+  margin-right: 8px;
+  padding: 6px 14px;
+  color:black;
+}
+
+.error {
+  color: red;
+  margin: 4px 0 0;
+  font-size: 14px;
+}
+
+.ok {
+  color: green;
+}
+
+.item {
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
